@@ -4,8 +4,9 @@
 class Birds extends petShop{
     public $cage;
 
-    public function __construct($_food, $_accessories){
-        parent:: __construct($_food, $_accessories);
+    public function __construct($_image, $_name, $_price){
+        parent::__construct($_image, $_name, $_price);
+
     }
 
     public function setCage($_cage){

@@ -6,17 +6,13 @@ require_once __DIR__ . '/Dogs.php';
 require_once __DIR__ . '/Fishes.php';
 
 class PetShop {
-    public $food;
-    public $games;
-    public $accessories;
+    public $image;
+    public $name;
+    public $price;
 
-    function __construct($_food, $_accessories) {
-        $this->food = $_food;
-        $this->accessories = $_accessories;
-    }
-
-    public function setGames($_games) {
-        
-        $this->games = $_games;
+    function __construct($_image, $_name, $_price) {
+        $this->image = $_image;
+        $this->name = $_name;
+        $this->price = $_price;
     }
 }
